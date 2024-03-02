@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            width: 150x;
+            height: 1500x;
+            margin: 100px;
+            display: inline-block;
+            overflow: hidden;
+        }
 
+        .box img {
+            width: 500%;
+            height: 500%;
+            object-fit: cover;
+        }
+
+        .box1 { background-color: #3498db; }
+        .box2 { background-color: #2ecc71; }
+        .box3 { background-color: #e74c3c; }
+    </style>
+</head>
+<body>
+
+    <div style="width: 250px; height: 250px; padding: 5px; display: inline-block; background-color: rgb(81, 135, 179);">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Ariel_disney.png/150px-Ariel_disney.png",  width="150px", height="150px">
+        <p>Ariel - The Little Mermaid. </p>  
+    <div style="width: 250px; height: 250px; padding: 5px; display: inline-block; background-color: rgb(211, 224, 17);">
+        <img src="https://i.ebayimg.com/images/g/GXAAAOSwPC5koFwX/s-l500.jpg",  width="150px", height="150px">
+        <p>Tinker Bell (Disney character) .</p>
+    </div>
+    <div style="width: 250px; height: 250px; padding: 5px; display: inline-block; background-color: rgb(12, 15, 214);">
+        <img src="https://i.pinimg.com/474x/54/5f/1b/545f1b93e73ec3dc4d039d8a8f3db82c.jpg",  width="150px", height="150px">
+        <p>Belle from Beauty and the Beast.</p>
+    </div>
+</body>
+</html>
